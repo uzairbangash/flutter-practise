@@ -17,7 +17,11 @@ class homePage extends StatelessWidget {
       ),
       body: Container(
         color: Colors.blue,
-        child: Center(child: Text("welcome to my first app")),
+        child: Center(
+            child: Text(
+          "welcome to my first app",
+          style: FontWeight.bold,
+        )),
       ),
     );
   }
